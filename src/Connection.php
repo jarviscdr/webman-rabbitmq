@@ -124,6 +124,8 @@ class Connection
                         $res = $channel->ack($message);
                     } elseif ($tag === Constants::NACK) {
                         $res = $channel->nack($message);
+                    } elseif ($tag === Constants::NRQ_NACK) {
+                        $res = $channel->nack($message, false, false);
                     } else {
                         $res = $channel->reject($message);
                     }

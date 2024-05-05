@@ -1,3 +1,5 @@
+## 基于[workbunny/webman-rabbitmq](https://github.com/workbunny/webman-rabbitmq)修改而来，主要是为了增加一个NACK且不重新入队的场景
+
 <p align="center"><img width="260px" src="https://chaz6chez.cn/images/workbunny-logo.png" alt="workbunny"></p>
 
 **<p align="center">workbunny/webman-rabbitmq</p>**
